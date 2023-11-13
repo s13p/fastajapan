@@ -156,7 +156,7 @@ p, a {
 .section {
   width: 100vw;
   min-height: 69vw;
-  background-color: #ff4820;
+  background-color: #ff0000;
   border-bottom-right-radius: 260px;
   border-bottom-left-radius: 260px;
   flex-direction: column;
@@ -265,7 +265,7 @@ p, a {
 .section-2 {
   width: 100vw;
   min-height: 50vw;
-  color: #ca5a5a;
+  color: #ff0000;
   background-color: rgba(0, 0, 0, 0);
   flex-direction: column;
   justify-content: flex-start;
@@ -645,7 +645,7 @@ p, a {
 }
 
 .body-2 {
-  background-color: #FFF3DC;
+  background-color: whitesmoke;
   font-family: 'Wolfers', sans-serif;
 }
 
@@ -720,11 +720,11 @@ p, a {
 }
 
 .bordered-container.purplish-blue:hover {
-  border-color: #E36550;
+  border-color: #ff0000;
 }
 
 .bordered-container.purple:hover {
-  border-color: #E36550;
+  border-color: #ff0000;
 }
 
 .hero-subtitle {
@@ -768,8 +768,8 @@ p, a {
 }
 
 .panel.red:hover {
-  background-color: #E36550;
-  box-shadow: 6px 6px 120px 16px #E36550;
+  background-color: #ff0000;
+  box-shadow: 6px 6px 120px 16px #ff0000;
 }
 
 .panel.orange {
@@ -786,8 +786,8 @@ p, a {
 }
 
 .panel.blue:hover {
-  background-color: #E36550  ;
-  box-shadow: 6px 6px 120px 16px #E36550  ;
+  background-color: #ff0000  ;
+  box-shadow: 6px 6px 120px 16px #ff0000  ;
 }
 
 .investor-grid {
@@ -1083,7 +1083,7 @@ p, a {
 
 }
 .bghead {
-  background-image: url(./../bg.png);
+ background-color: whitesmoke;
   background-size: cover;
   height: 100vh;
   background-repeat: no-repeat;
@@ -1452,7 +1452,7 @@ p, a {
 
 .product-info-text.figure.blue {
   width: 34vw;
-  color: #E36550;
+  color: #ff0000;
   text-align: center;
   margin-top: 1vw;
   font-family: 'Wolfers', sans-serif;
