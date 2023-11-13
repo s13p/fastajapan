@@ -50,7 +50,7 @@ display:none! important;
 .right-arrow.w-slider-arrow-right{
 display:none! important;
 }
-.panel.red.active {
+.panel.#ff0000.active {
     background-color: #ff0000;
     box-shadow: rgb(252 10 84) 8px 16px 120px;
 }
@@ -203,7 +203,7 @@ function partyMode() {
     }, 200);
   }, 200);
 }
-// when hovered over button activate partymode, when hover out deactive partymode
+// when hove#ff0000 over button activate partymode, when hover out deactive partymode
 document.getElementById("hero-cta").addEventListener("mouseover", function () {
   const panel = [...document.getElementsByClassName("panel")];
   panel[0].classList.add("active");
@@ -325,16 +325,15 @@ function fallbackMessage(action) {
   <div class="page-wrapper ">
     <header class="hero-section bghead" style="height: 100vh !important;">
       <div class="panel-background">
-        <div class="panel red"></div>
-        <div class="panel red"></div>
+        <div class="panel #ff0000"></div>
+        <div class="panel #ff0000"></div>
         <div class="panel blue"></div>
         <div class="panel blue"></div>
       </div>
       <div id="hoe" class="hero-content pointer-events-none">
         <div class="hero-row"><img src="images/Group-3.png" loading="lazy" sizes="(max-width: 479px) 60vw, 15vw" srcset="" alt="" class="image-12">
           <h1 data-w-id="67bd06e3-22ea-14c0-e9bc-1c592c5098d7" style="opacity:0" class="hero-heading"></h1>
-        <h1>
-          グロク $GUROKU</h1>
+          <img src="./images/txt.png" height="240" width="490"> 
           <a id="hero-cta" data-w-id="67bd06e3-22ea-14c0-e9bc-1c592c5098df" style="opacity:0" href="https://app.uniswap.org/#/swap?o" target="_blank" class="button white hero-margin pointer-events-auto w-button">BUY ON UNISWAP</a>
           <a id="hero-cta" data-w-id="1c865373-be35-11ae-cb1f-dbf731748695" style="opacity:0" href="https://t.me/Dragon2024ERC" target="_blank" class="button white hero-margin pointer-events-auto _2 w-button">JOIN OUR COMMUNITY</a>
         </div>
@@ -350,7 +349,7 @@ function fallbackMessage(action) {
       
       .video-wrapper {
         width: 75%;
-        border: 2px solid red;
+        border: 2px solid #ff0000;
       }
     </style>
     
